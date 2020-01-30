@@ -1,0 +1,32 @@
+{
+  "name": "@ssl-lib/loadConfigRcByModel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "files": [
+    "./src"
+  ],
+  "scripts": {
+    "test": "jest --coverage --coverageReporters=text-lcov | coveralls",
+    "test:dev": "jest --coverage --watch",
+    "eslint": "eslint ./src",
+    "eslint:fix": "eslint --fix ./src",
+    "eslint:watch": "nodemon -w ./src --exec yarn run eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://sillasleal@github.com/sillasleal/loadConfigRcByModel.git"
+  },
+  "author": "Sillas S. Leal <sillas.s.leal@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sillasleal/loadConfigRcByModel/issues"
+  },
+  "homepage": "https://github.com/sillasleal/loadConfigRcByModel#readme",
+  "devDependencies": {
+    "coveralls": "^3.0.9",
+    "eslint": "^6.8.0",
+    "eslint-config-google": "^0.14.0",
+    "jest": "^25.1.0"
+  }
+}
