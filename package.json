@@ -1,5 +1,5 @@
 {
-  "name": "@ssl-lib/loadConfigRcByModel",
+  "name": "@ssl-lib/load-config-rc",
   "version": "1.0.0",
   "description": "",
   "main": "src/index.js",
