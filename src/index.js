@@ -22,7 +22,6 @@
  * THE SOFTWARE.
  */
 
-
 const fs = require('fs');
 
 /**
